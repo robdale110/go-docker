@@ -9,3 +9,7 @@ or
 ```make bin/exmplae```
 
 ```make```
+
+build for specific platform
+
+```docker build --target bin --platform windows/amd64 .```
