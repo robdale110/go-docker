@@ -6,10 +6,15 @@ Can build using either
 
 or 
 
-```make bin/exmplae```
+```make bin/example```
 
 ```make```
 
 build for specific platform
 
 ```docker build --target bin --platform windows/amd64 .```
+
+use make for build, test and lint:
+
+```make unit-test```
+```make lint```
