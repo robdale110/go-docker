@@ -18,4 +18,4 @@ jobs:
       - name: Build Linux binary
         run: make PLATFORM=linux/amd64
       - name: Build Windows binary
-        run make PLATFORM=windows/amd64
+        run: make PLATFORM=windows/amd64
