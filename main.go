@@ -2,7 +2,7 @@ package main
 
 import (
 	"strings"
-	"errors"
+	"github.com/pkg/errors"
 	"os"
 	"fmt"
 )
@@ -18,6 +18,6 @@ func echo(args []string) error {
 	if len(args) < 2 {
 		return errors.New("No message to echo")
 	}
-	_, err := fmt.Println(strings.Join(args[i:], " "))
+	_, err := fmt.Println(strings.Join(args[1:], " "))
 	return err
 }
